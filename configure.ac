@@ -288,13 +288,11 @@ CXXFLAGS="$CXXFLAGS -Wall -Wextra -Werror \
 	-Wimplicit-fallthrough=5 -Wduplicated-branches -Wtrampolines \
 	-Wdangling-else -Wshift-overflow=2 -Wswitch \
 	-Wunused-but-set-parameter -Wunused-const-variable=1 -Wuninitialized \
-	-Wstringop-overflow=3 -Woverlength-strings -Wno-error=deprecated-declarations\
+	-Wstringop-overflow=3 -Woverlength-strings \
 	-Wunsafe-loop-optimizations -Wpointer-arith \
 	-Wfloat-equal -Wlogical-op \
-	-Wno-error=mismatched-new-delete \
 	-Wno-error=cast-align=strict -Wno-error=ignored-qualifiers \
 	-Wno-error=cast-function-type -Wno-error=deprecated-declarations \
-	-Wno-error=use-after-free -Wno-error=dangling-pointer= \
 	-Wno-error=stringop-truncation -Wno-error=shadow -Wno-error=cast-qual \
 	-Wno-error=aggregate-return -Wno-error=missing-field-initializers \
 	-Wno-error=packed -Wno-error=vla -Wno-error=clobbered -Wno-error=unused-parameter \
